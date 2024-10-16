@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_86efef61e1ff393039e76a4d2b061080 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_86efef61e1ff393039e76a4d2b061080" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_86efef61e1ff393039e76a4d2b061080 = L.map(
+                "map_86efef61e1ff393039e76a4d2b061080",
+                {
+                    center: [55.9533, -3.1883],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_090f2c7638289b5a69c3690252938db8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_86efef61e1ff393039e76a4d2b061080);
+        
+    
+            var marker_d4347bca65eee045d448588e51a14bad = L.marker(
+                [55.9511, -3.1928],
+                {}
+            ).addTo(map_86efef61e1ff393039e76a4d2b061080);
+        
+    
+            var beautify_icon_9cbe1409c7491dc84c699dee652512b9 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#1E90FF", "borderWidth": 2, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 1, "textColor": "#FFFFFF"}
+            )
+            marker_d4347bca65eee045d448588e51a14bad.setIcon(beautify_icon_9cbe1409c7491dc84c699dee652512b9);
+        
+    
+        var popup_1308dd7352f4c32c73eadd42aee08949 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c2a59d8fa2f973cfdeb9231a6573e9a = $(`<div id="html_8c2a59d8fa2f973cfdeb9231a6573e9a" style="width: 100.0%; height: 100.0%;">1. The Milkman Coffee</div>`)[0];
+            popup_1308dd7352f4c32c73eadd42aee08949.setContent(html_8c2a59d8fa2f973cfdeb9231a6573e9a);
+        
+
+        marker_d4347bca65eee045d448588e51a14bad.bindPopup(popup_1308dd7352f4c32c73eadd42aee08949)
+        ;
+
+        
+    
+    
+            marker_d4347bca65eee045d448588e51a14bad.bindTooltip(
+                `<div>
+                     The Milkman Coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c238979ab3030f020ca425659ddc038 = L.marker(
+                [55.9505, -3.1878],
+                {}
+            ).addTo(map_86efef61e1ff393039e76a4d2b061080);
+        
+    
+            var beautify_icon_aaf1305029932c0b97f1a12c68a24a4c = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#1E90FF", "borderWidth": 2, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 2, "textColor": "#FFFFFF"}
+            )
+            marker_0c238979ab3030f020ca425659ddc038.setIcon(beautify_icon_aaf1305029932c0b97f1a12c68a24a4c);
+        
+    
+        var popup_f4413d1cdc48bcae2c4b1f768ebfe55f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f3044aac72aef369a0c0d9ec41a418c = $(`<div id="html_7f3044aac72aef369a0c0d9ec41a418c" style="width: 100.0%; height: 100.0%;">2. Royal Mile</div>`)[0];
+            popup_f4413d1cdc48bcae2c4b1f768ebfe55f.setContent(html_7f3044aac72aef369a0c0d9ec41a418c);
+        
+
+        marker_0c238979ab3030f020ca425659ddc038.bindPopup(popup_f4413d1cdc48bcae2c4b1f768ebfe55f)
+        ;
+
+        
+    
+    
+            marker_0c238979ab3030f020ca425659ddc038.bindTooltip(
+                `<div>
+                     Royal Mile
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98f4bfabcf934e655c4dbe678de4fd82 = L.marker(
+                [55.9483, -3.1933],
+                {}
+            ).addTo(map_86efef61e1ff393039e76a4d2b061080);
+        
+    
+            var beautify_icon_1e84b69b73e6dc8b075fa5187f0236e2 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#1E90FF", "borderWidth": 2, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 3, "textColor": "#FFFFFF"}
+            )
+            marker_98f4bfabcf934e655c4dbe678de4fd82.setIcon(beautify_icon_1e84b69b73e6dc8b075fa5187f0236e2);
+        
+    
+        var popup_9526bd77db0284bc5b3ba6c0ada33b35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93e4e5942f2beda7c724285b35a183ea = $(`<div id="html_93e4e5942f2beda7c724285b35a183ea" style="width: 100.0%; height: 100.0%;">3. Howies Restaurant</div>`)[0];
+            popup_9526bd77db0284bc5b3ba6c0ada33b35.setContent(html_93e4e5942f2beda7c724285b35a183ea);
+        
+
+        marker_98f4bfabcf934e655c4dbe678de4fd82.bindPopup(popup_9526bd77db0284bc5b3ba6c0ada33b35)
+        ;
+
+        
+    
+    
+            marker_98f4bfabcf934e655c4dbe678de4fd82.bindTooltip(
+                `<div>
+                     Howies Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85550a9daf218bb8c677ec361c56d4f2 = L.marker(
+                [55.9535, -3.2174],
+                {}
+            ).addTo(map_86efef61e1ff393039e76a4d2b061080);
+        
+    
+            var beautify_icon_d276482f9b53230ee4f2c696d814d293 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#1E90FF", "borderWidth": 2, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 4, "textColor": "#FFFFFF"}
+            )
+            marker_85550a9daf218bb8c677ec361c56d4f2.setIcon(beautify_icon_d276482f9b53230ee4f2c696d814d293);
+        
+    
+        var popup_3a9c1b3f92aea4e6d4d57a959e9ef0e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40b215345b93d3bc4f914b527ce096f4 = $(`<div id="html_40b215345b93d3bc4f914b527ce096f4" style="width: 100.0%; height: 100.0%;">4. Dean Village</div>`)[0];
+            popup_3a9c1b3f92aea4e6d4d57a959e9ef0e2.setContent(html_40b215345b93d3bc4f914b527ce096f4);
+        
+
+        marker_85550a9daf218bb8c677ec361c56d4f2.bindPopup(popup_3a9c1b3f92aea4e6d4d57a959e9ef0e2)
+        ;
+
+        
+    
+    
+            marker_85550a9daf218bb8c677ec361c56d4f2.bindTooltip(
+                `<div>
+                     Dean Village
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fff24d0b7032f242f2bf67265dc6d7f3 = L.marker(
+                [55.9486, -3.1999],
+                {}
+            ).addTo(map_86efef61e1ff393039e76a4d2b061080);
+        
+    
+            var beautify_icon_6a7f3ef4c01055f5f025494138dd3efb = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#1E90FF", "borderWidth": 2, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 5, "textColor": "#FFFFFF"}
+            )
+            marker_fff24d0b7032f242f2bf67265dc6d7f3.setIcon(beautify_icon_6a7f3ef4c01055f5f025494138dd3efb);
+        
+    
+        var popup_1b18ea990d845c1e8fad89bd0aee1513 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76c73e1e0249d32195dc306c154c2b7f = $(`<div id="html_76c73e1e0249d32195dc306c154c2b7f" style="width: 100.0%; height: 100.0%;">5. Edinburgh Castle</div>`)[0];
+            popup_1b18ea990d845c1e8fad89bd0aee1513.setContent(html_76c73e1e0249d32195dc306c154c2b7f);
+        
+
+        marker_fff24d0b7032f242f2bf67265dc6d7f3.bindPopup(popup_1b18ea990d845c1e8fad89bd0aee1513)
+        ;
+
+        
+    
+    
+            marker_fff24d0b7032f242f2bf67265dc6d7f3.bindTooltip(
+                `<div>
+                     Edinburgh Castle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee347ff98b7342c81b72bd2d7e3d5fe0 = L.marker(
+                [55.9492, -3.1955],
+                {}
+            ).addTo(map_86efef61e1ff393039e76a4d2b061080);
+        
+    
+            var beautify_icon_d14a27f9a146fb0d3d0f3b2bb95adc2e = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#1E90FF", "borderWidth": 2, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 6, "textColor": "#FFFFFF"}
+            )
+            marker_ee347ff98b7342c81b72bd2d7e3d5fe0.setIcon(beautify_icon_d14a27f9a146fb0d3d0f3b2bb95adc2e);
+        
+    
+        var popup_353ac79649955cdbf9ce38f6e9956c69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbf48c069646552f8f9f48ba1f84db86 = $(`<div id="html_dbf48c069646552f8f9f48ba1f84db86" style="width: 100.0%; height: 100.0%;">6. The Witchery by the Castle</div>`)[0];
+            popup_353ac79649955cdbf9ce38f6e9956c69.setContent(html_dbf48c069646552f8f9f48ba1f84db86);
+        
+
+        marker_ee347ff98b7342c81b72bd2d7e3d5fe0.bindPopup(popup_353ac79649955cdbf9ce38f6e9956c69)
+        ;
+
+        
+    
+    
+            marker_ee347ff98b7342c81b72bd2d7e3d5fe0.bindTooltip(
+                `<div>
+                     The Witchery by the Castle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26d2087706463b0b7b6e9c73e23e19c5 = L.marker(
+                [55.9461, -3.1976],
+                {}
+            ).addTo(map_86efef61e1ff393039e76a4d2b061080);
+        
+    
+            var beautify_icon_95e6987fef34cb6d7e3b6a7d99774af0 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#1E90FF", "borderWidth": 2, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 7, "textColor": "#FFFFFF"}
+            )
+            marker_26d2087706463b0b7b6e9c73e23e19c5.setIcon(beautify_icon_95e6987fef34cb6d7e3b6a7d99774af0);
+        
+    
+        var popup_4e6305eeee2266bafb50e5507ca6d79e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_978ac08b2a2cc61a8433f56580066148 = $(`<div id="html_978ac08b2a2cc61a8433f56580066148" style="width: 100.0%; height: 100.0%;">7. The Last Drop</div>`)[0];
+            popup_4e6305eeee2266bafb50e5507ca6d79e.setContent(html_978ac08b2a2cc61a8433f56580066148);
+        
+
+        marker_26d2087706463b0b7b6e9c73e23e19c5.bindPopup(popup_4e6305eeee2266bafb50e5507ca6d79e)
+        ;
+
+        
+    
+    
+            marker_26d2087706463b0b7b6e9c73e23e19c5.bindTooltip(
+                `<div>
+                     The Last Drop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbddd007ca27ce98f89032484c37da0d = L.marker(
+                [55.9474, -3.1938],
+                {}
+            ).addTo(map_86efef61e1ff393039e76a4d2b061080);
+        
+    
+            var beautify_icon_e02083dcb58b41c294d0011456f91255 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#1E90FF", "borderWidth": 2, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 8, "textColor": "#FFFFFF"}
+            )
+            marker_bbddd007ca27ce98f89032484c37da0d.setIcon(beautify_icon_e02083dcb58b41c294d0011456f91255);
+        
+    
+        var popup_2cbdf321c5c02c281f682f1e601b0ab7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6faf51d82af643cd911d0e8364e242d = $(`<div id="html_f6faf51d82af643cd911d0e8364e242d" style="width: 100.0%; height: 100.0%;">8. The Bow Bar</div>`)[0];
+            popup_2cbdf321c5c02c281f682f1e601b0ab7.setContent(html_f6faf51d82af643cd911d0e8364e242d);
+        
+
+        marker_bbddd007ca27ce98f89032484c37da0d.bindPopup(popup_2cbdf321c5c02c281f682f1e601b0ab7)
+        ;
+
+        
+    
+    
+            marker_bbddd007ca27ce98f89032484c37da0d.bindTooltip(
+                `<div>
+                     The Bow Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1322fc90ee7a646d54932748048a9f6 = L.marker(
+                [55.9489, -3.1868],
+                {}
+            ).addTo(map_86efef61e1ff393039e76a4d2b061080);
+        
+    
+            var beautify_icon_021e32e3ef361cfad9fbe7a43731983a = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#1E90FF", "borderWidth": 2, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 9, "textColor": "#FFFFFF"}
+            )
+            marker_e1322fc90ee7a646d54932748048a9f6.setIcon(beautify_icon_021e32e3ef361cfad9fbe7a43731983a);
+        
+    
+        var popup_fe15f209037980a06ba06845e4aaad1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f369cf6a2b28b878a14a8a479fc909ec = $(`<div id="html_f369cf6a2b28b878a14a8a479fc909ec" style="width: 100.0%; height: 100.0%;">9. Whistle Binkies (Opcional)</div>`)[0];
+            popup_fe15f209037980a06ba06845e4aaad1a.setContent(html_f369cf6a2b28b878a14a8a479fc909ec);
+        
+
+        marker_e1322fc90ee7a646d54932748048a9f6.bindPopup(popup_fe15f209037980a06ba06845e4aaad1a)
+        ;
+
+        
+    
+    
+            marker_e1322fc90ee7a646d54932748048a9f6.bindTooltip(
+                `<div>
+                     Whistle Binkies (Opcional)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da13da7ef674f69912432521ec499d36 = L.marker(
+                [55.9467, -3.1931],
+                {}
+            ).addTo(map_86efef61e1ff393039e76a4d2b061080);
+        
+    
+            var beautify_icon_795dbd9c82d18e228bf8826921b22171 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#4CAF50", "borderColor": "#1E90FF", "borderWidth": 2, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 10, "textColor": "#FFFFFF"}
+            )
+            marker_da13da7ef674f69912432521ec499d36.setIcon(beautify_icon_795dbd9c82d18e228bf8826921b22171);
+        
+    
+        var popup_ad8ca1040a3b9a61aaf5fb05b2806ea2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ed2c821268dbe7fceb34f55b987754e = $(`<div id="html_6ed2c821268dbe7fceb34f55b987754e" style="width: 100.0%; height: 100.0%;">10. Sandy Bell's (Opcional)</div>`)[0];
+            popup_ad8ca1040a3b9a61aaf5fb05b2806ea2.setContent(html_6ed2c821268dbe7fceb34f55b987754e);
+        
+
+        marker_da13da7ef674f69912432521ec499d36.bindPopup(popup_ad8ca1040a3b9a61aaf5fb05b2806ea2)
+        ;
+
+        
+    
+    
+            marker_da13da7ef674f69912432521ec499d36.bindTooltip(
+                `<div>
+                     Sandy Bell's (Opcional)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_332b1e5dec1ad6e5060593b9ae7d1712 = L.marker(
+                [55.9453, -3.2139],
+                {}
+            ).addTo(map_86efef61e1ff393039e76a4d2b061080);
+        
+    
+            var icon_180fdcd3e930ab0da7399284cebb7464 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_332b1e5dec1ad6e5060593b9ae7d1712.setIcon(icon_180fdcd3e930ab0da7399284cebb7464);
+        
+    
+        var popup_bd262d5eeacdf2bfda205ae40fe83c98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ff3a2749ecaa883c9e6180e278f62bb = $(`<div id="html_9ff3a2749ecaa883c9e6180e278f62bb" style="width: 100.0%; height: 100.0%;">Hotel: Leonardo Hotel Edinburgh Haymarket</div>`)[0];
+            popup_bd262d5eeacdf2bfda205ae40fe83c98.setContent(html_9ff3a2749ecaa883c9e6180e278f62bb);
+        
+
+        marker_332b1e5dec1ad6e5060593b9ae7d1712.bindPopup(popup_bd262d5eeacdf2bfda205ae40fe83c98)
+        ;
+
+        
+    
+    
+            marker_332b1e5dec1ad6e5060593b9ae7d1712.bindTooltip(
+                `<div>
+                     Leonardo Hotel Edinburgh Haymarket
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
